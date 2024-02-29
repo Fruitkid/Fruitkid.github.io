@@ -54,6 +54,26 @@ function success(pos){
     map.fitBounds();
 }
 
+    let useless;
+    useless= L.marker([22.4, 114.21]).addTo(map);
+    useless.bindTooltip("Under maintenance")
+
+    let useless2;
+    useless2= L.marker([22.32, 113.93]).addTo(map);
+    useless2.bindTooltip("Under maintenance2")
+
+    let useless3;
+    useless3= L.marker([22.23, 114.20]).addTo(map);
+    useless3.bindTooltip("Under maintenance3")
+
+    let useless4;
+    useless4= L.marker([22.41, 113.92]).addTo(map);
+    useless4.bindTooltip("Under maintenance4")    
+    
+    let useless5;
+    useless5= L.marker([22.3, 114.23]).addTo(map);
+    useless5.bindTooltip("Under maintenance5")
+    
 function error(err){
     if(err.code===1){
         alert("Please allow location access for best use of website");
